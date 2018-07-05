@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion - Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+		<title>Survey Form | Gelso Designs</title>
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				<div class="navbar">
+					<i class="fab fa-amilia"></i>
+				</div>
+			</nav>
+			<div class="hero-box">
+				<h1 id="title">Fashion Survey</h1>
+				<h2>Fashion trends and consumer behavior survey</h2>
+			</div>
+		</header>
+		
+		<section class="section-form">
+			<div class="form-grid">
+				<p id="description">Please fill out the form below.</p>
+				<form id="survey-form">
+						<label id="dropdown" for="gender">* Gender
+						<select name="gender">
+							<option value="female">Female</option>
+							<option value="male">Male</option>
+						</select>
+					</label>
+					<label id="name-label" for="name">* Name</label>
+					<input type="text" id="name" name="name" placeholder="Name" required>
+					<label id="email-label" for="email">* Email</label>
+					<input type="email" id="email" name="email" placeholder="Email" required>
+					<label id="number-label" for="age">* Age</label>
+					<input type="number" id="number" name="age" min="0" max="120" placeholder="Age" required>
+					<label id="spending-label" for="spending">* How much do you spend for clothing per month?<br>
+						<input class="1-spending" type="radio" value="0 - 50" name="spending" style="margin-right: 10px">$0 - $50<br>
+						<input type="radio" value="50 - 100" name="spending" style="margin-right: 10px">$50 - $100<br>
+						<input type="radio" value="100 - 250" name="spending" style="margin-right: 10px">$100 - $250<br>
+						<input type="radio" value="250 - 500" name="spending" style="margin-right: 10px">$250 - $500<br>
+						<input type="radio" value="500 +" name="spending" style="margin-right: 10px">$500 +<br>
+					</label>
+					<label id="clothing-type-label" for="spending">* Which type of clothing do you buy most often?<br>
+						<input type="checkbox" value="T-shirts, sweaters, sweatshirts" name="clothing-type" style="margin-right: 10px">T-shirts, sweaters, sweatshirts<br>
+						<input type="checkbox" value="Trousers, shorts, skirts" name="clothing-type" style="margin-right: 10px">Trousers, shorts, skirts<br>
+						<input type="checkbox" value="Underwear" name="clothing-type" style="margin-right: 10px">Underwear<br>
+						<input type="checkbox" value="Jackets, coats" name="clothing-type" style="margin-right: 10px">Jackets, coats<br>
+						<input type="checkbox" value="Boots, shoes , footwear" name="clothing-type" style="margin-right: 10px">Boots, shoes, footwear<br>
+					</label>
+					<label id="shop-label" for="shop">* Where do you shop for clothes? (Please list your top 5 stores)</label>
+					<textarea rows="5"></textarea>
+                    <label id="submit-label" type="checkbox"></label>
+					<input id="submit" type="submit" value="Submit">	
+				</form>
+			</div>
+		</section>
+	
+		<footer>
+			<ul class="footer">
+				<li><i class="fab fa-amilia"></i></li>
+		 		<li><h4>2018 by Gelso Designs.</h4></li>
+			</ul>
+		</footer>
+        
+	</body>
+</html>
+  
+  
+
+</body>
+
+</html>

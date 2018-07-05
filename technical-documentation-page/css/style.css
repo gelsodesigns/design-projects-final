@@ -1,0 +1,266 @@
+/* --------- Colors ---------- */
+/* Main color: #77C9D4 */
+/* Navbar color: #222 */
+/* Font color: #444 */
+
+/* --------------------------- */
+/*         BASIC SETUP         */
+/* --------------------------- */
+html,
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #444;
+    margin: 0;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* --------------------------- */
+/*           REUSABLE          */
+/* --------------------------- */
+header {
+    font-size: 30px;
+    font-weight: 400;
+    color: #77C9D4;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 40px;
+/*    color: #77C9D4;*/
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color:  #77C9D4;
+}
+
+a:hover {
+    color: #538c94;
+}
+
+section {
+    padding-bottom: 25px;
+}
+
+code {
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #F5F5F5; 
+    display: block;
+    border-left: 5px solid #77C9D4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 20px;
+}
+
+/* --------------------------- */
+/*            HEADER           */
+/* --------------------------- */
+#navbar {
+    float: left;
+}
+
+#navbar a {
+   text-decoration: none;
+    color: #444;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 63px;
+    left: 0;
+    bottom: 0;
+    right 0;
+    background-color: #F5F5F5; /* #222 */
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navbar header {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 7px 0 7px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #77C9D4;
+}
+
+#navbar header a {
+	color: #FFF;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    display: block;
+    padding: 20px 8px 0 8px;
+}
+
+.sidenav a:hover::before,
+.sidenav a:active::before {
+    content: '>';
+    color: #77C9D4;
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.sidenav a:after {
+    display: block;
+    height: 2px;
+    background-color: #77C9D4;
+    content: "";
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* --------------------------- */
+/*             MAIN            */
+/* --------------------------- */
+main { padding: 90px 200px 0 450px; }
+
+main img {
+    max-width: 700px;
+    height: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+.line {
+    font-weight: 400;
+    color: #77C9D4;
+}
+
+.text-background {
+    background-color: #d6eef2;
+}
+
+main li {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 16px;
+}
+
+.wrong-code {
+  border-left: 5px solid #FF4041;  
+}
+
+.note {
+   border-left: 5px solid #FFC052;
+}
+
+/* --------------------------- */
+/*           QUERIES           */
+/* --------------------------- */
+@media only screen and (max-width:1370px) {
+    main {
+        padding: 90px 50px 0 350px;
+    }
+    
+    main img {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width:1230px) {
+     main img {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #navbar {
+        float: none;
+    }
+    
+    #navbar header {
+        font-size: 25px;
+    }
+    
+    .sidenav { 
+        margin-top: 20px;
+        height: 223px;
+        width: auto;
+        position: static;
+    }
+    
+    .sidenav a {
+        font-size: 15px;
+        padding: 12px 8px 0 8px;
+    }
+
+    .sidenav a:after {
+        display: block;
+        height: 2px;
+        background-color: #77C9D4;
+        content: "";
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    
+    main {
+        padding: 50px 20px 0 20px;
+    }
+	
+		header {
+    	font-size: 25px;
+		}
+	
+		h1 {
+			font-size: 40px;
+		}
+	
+		h3 {
+			font-size: 20px;
+		}
+		
+		p {
+			font-size: 15px;
+		}
+    
+}
+
+@media only screen and (max-width:460px) {
+    main img {
+        max-width: 315px;
+    }
+
+}
+
+
