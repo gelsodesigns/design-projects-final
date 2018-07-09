@@ -28,7 +28,5 @@ $(document).ready(function() {
             icon.removeClass('fa-times');
         }
      
- });
-    
-    
+  });    
 });

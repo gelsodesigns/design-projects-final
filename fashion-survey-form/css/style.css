@@ -8,9 +8,7 @@ body {
 	color: #202121;
 }
 
-body {
-	margin: 0;
-}
+body { margin: 0; }
 
 .clearfix {zoom: 1}
 .clearfix:after {
@@ -99,9 +97,7 @@ h2 {
 	margin: 0 auto;
 }
 
-label {
-	padding-top: 30px;
-}
+label {	padding-top: 30px; }
 
 input[type=text], select, textarea {
 	width: 100%;
@@ -146,8 +142,8 @@ label select {
 	background-color: #FFF;
 }
 
-input[type=radio], checked {
-	background-color: black;
+input[type=radio], checked { 
+    background-color: black; 
 }
 
 #spending-label input,
@@ -175,8 +171,8 @@ input[type=submit]:hover {
 
 #submit-label,
 #submit {
-	margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* -------------------------------------------*/
@@ -193,9 +189,7 @@ footer {
 	list-style: none;
 }
 
-footer li {
-	display: inline-block;
-}
+footer li { display: inline-block; }
 
 h4 {
 	margin: 0 auto;
@@ -209,18 +203,14 @@ h4 {
 /* MEDIA QUERIES */
 /* -------------------------------------------*/
 @media only screen and (max-width: 1350px) {
-	header {
-		height: 400px;
-	}
+	header { height: 400px; }
 	
-	h1 {
-		padding-top: 4%;
-	}
+	h1 { padding-top: 4%; }
 }
 
 @media only screen and (max-width: 900px) {
 	#survey-form {
-		min-width: 70%;
+		min-width: 80%;
 		margin: 0 auto;
 	}
 }
@@ -232,8 +222,8 @@ h4 {
 	}
 	
 	h1 {
-	padding-top: 7%;
-	font-size: 40px;
+    padding-top: 7%;
+    font-size: 40px;
 	}
 
 	h2 {
@@ -243,13 +233,11 @@ h4 {
 }
 
 @media only screen and (max-width: 550px) {
-	header {
-		height: 200px;
-	}
+	header { height: 200px; }
 	
 	h1 {
-	padding-top: 1%;
-	font-size: 30px;
+    padding-top: 1%;
+    font-size: 30px;
 	}
 
 	h2 {
@@ -258,3 +246,4 @@ h4 {
 		margin-top :0;
 	}
 }
+
